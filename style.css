@@ -34,10 +34,11 @@ h1{
     text-shadow: 1px 1px 3px;
     font-size: 35px;
     font-weight: lighter;
+    margin-top: 0.1rem;
 }
 
 .input{
-    margin-top: 8rem;
+    margin-top: 6rem;
     display: flex;
     flex-direction: column;
     justify-content: center;

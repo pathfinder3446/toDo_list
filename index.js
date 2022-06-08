@@ -2,6 +2,10 @@ const input = document.querySelector(`.input-box`);
 const btn = document.querySelector(`.btn`);
 const tasks = document.querySelector(`.tasks`)
 
+window.onload = function() {
+    document.getElementById("myText").focus();
+  };
+
 btn.addEventListener(`click`, () => {
     if(input.value == ``) {
         alert(`Please fill the input box !!`)
