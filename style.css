@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: steelblue;
+    display: flex;
+    justify-content: center;
+    align-items: center
+    
+    ;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background-image: url(./notebook.png);
+    background-size: cover;
+    width: 700px;
+    height: 100vh;
+    /* margin-top: 3rem; */
+
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline overline;
+    text-shadow: 1px 1px 3px;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+.input{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-button{
+    margin-top: 1.5rem;
+    width: 25rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 50px;
+    
+}
+.input-box{
+    width: 80%;
+    height: 2rem;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    
+
+}
+
+.btn{
+    width: 15%;
+    height: 2rem;
+    border-radius: 6px;
+    background-color: sandybrown;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn:hover{
+    background-color: limegreen;
+}
+
+.tasks{
+    margin: 2rem 0;
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    font-family: 'Times New Roman', Times, serif;
+    width: 26rem;
+    height: 27rem;
+
+}
+
+h3{
+    text-decoration: underline;
+    text-shadow: 0.5px 0.5px 2px;
+    font-weight: lighter;
+    padding: 4px;
+}
